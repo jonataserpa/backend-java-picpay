@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.picpaydesafiobackend.transaction;
+package br.com.challenge.picpay.transaction;
 
 import java.util.List;
 

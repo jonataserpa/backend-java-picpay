@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.picpaydesafiobackend.notification;
+package br.com.challenge.picpay.notification;
 
 public class NotificationException extends RuntimeException {
   public NotificationException(String message) {

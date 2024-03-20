@@ -1,12 +1,12 @@
-package br.com.giulianabezerra.picpaydesafiobackend.authorization;
+package br.com.challenge.picpay.authorization;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;
 
-import br.com.giulianabezerra.picpaydesafiobackend.transaction.Transaction;
-import br.com.giulianabezerra.picpaydesafiobackend.transaction.UnauthorizedTransactionException;
+import br.com.challenge.picpay.transaction.Transaction;
+import br.com.challenge.picpay.transaction.UnauthorizedTransactionException;
 
 @Service
 public class AuthorizerService {

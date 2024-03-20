@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.picpaydesafiobackend.transaction;
+package br.com.challenge.picpay.transaction;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

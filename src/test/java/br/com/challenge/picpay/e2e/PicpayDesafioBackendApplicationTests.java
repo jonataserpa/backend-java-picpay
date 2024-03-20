@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.picpaydesafiobackend.e2e;
+package br.com.challenge.picpay.e2e;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -16,7 +16,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.kafka.test.context.EmbeddedKafka;
 import org.springframework.test.web.reactive.server.WebTestClient;
 
-import br.com.giulianabezerra.picpaydesafiobackend.transaction.Transaction;
+import br.com.challenge.picpay.transaction.Transaction;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @EmbeddedKafka(partitions = 1, brokerProperties = {

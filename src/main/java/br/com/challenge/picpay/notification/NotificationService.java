@@ -1,10 +1,10 @@
-package br.com.giulianabezerra.picpaydesafiobackend.notification;
+package br.com.challenge.picpay.notification;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import br.com.giulianabezerra.picpaydesafiobackend.transaction.Transaction;
+import br.com.challenge.picpay.transaction.Transaction;
 
 @Service
 public class NotificationService {

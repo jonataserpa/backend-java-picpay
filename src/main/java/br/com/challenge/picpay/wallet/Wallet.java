@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.picpaydesafiobackend.wallet;
+package br.com.challenge.picpay.wallet;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.picpaydesafiobackend.test;
+package br.com.challenge.picpay.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -17,15 +17,15 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import br.com.giulianabezerra.picpaydesafiobackend.authorization.AuthorizerService;
-import br.com.giulianabezerra.picpaydesafiobackend.notification.NotificationService;
-import br.com.giulianabezerra.picpaydesafiobackend.transaction.InvalidTransactionException;
-import br.com.giulianabezerra.picpaydesafiobackend.transaction.Transaction;
-import br.com.giulianabezerra.picpaydesafiobackend.transaction.TransactionRepository;
-import br.com.giulianabezerra.picpaydesafiobackend.transaction.TransactionService;
-import br.com.giulianabezerra.picpaydesafiobackend.wallet.Wallet;
-import br.com.giulianabezerra.picpaydesafiobackend.wallet.WalletRepository;
-import br.com.giulianabezerra.picpaydesafiobackend.wallet.WalletType;
+import br.com.challenge.picpay.authorization.AuthorizerService;
+import br.com.challenge.picpay.notification.NotificationService;
+import br.com.challenge.picpay.transaction.InvalidTransactionException;
+import br.com.challenge.picpay.transaction.Transaction;
+import br.com.challenge.picpay.transaction.TransactionRepository;
+import br.com.challenge.picpay.transaction.TransactionService;
+import br.com.challenge.picpay.wallet.Wallet;
+import br.com.challenge.picpay.wallet.WalletRepository;
+import br.com.challenge.picpay.wallet.WalletType;
 
 @ExtendWith(MockitoExtension.class)
 public class TransactionServiceTest {

@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.picpaydesafiobackend.transaction;
+package br.com.challenge.picpay.transaction;
 
 import java.util.List;
 
@@ -7,10 +7,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.giulianabezerra.picpaydesafiobackend.authorization.AuthorizerService;
-import br.com.giulianabezerra.picpaydesafiobackend.notification.NotificationService;
-import br.com.giulianabezerra.picpaydesafiobackend.wallet.WalletRepository;
-import br.com.giulianabezerra.picpaydesafiobackend.wallet.WalletType;
+import br.com.challenge.picpay.authorization.AuthorizerService;
+import br.com.challenge.picpay.notification.NotificationService;
+import br.com.challenge.picpay.wallet.WalletRepository;
+import br.com.challenge.picpay.wallet.WalletType;
 
 @Service
 public class TransactionService {

@@ -2,7 +2,7 @@
   PicPay Desafio Backend Sênior
 </h1>
 
-Projeto elaborado [nesse vídeo](https://youtu.be/YcuscoiIN14) para solucionar [esse desafio](https://github.com/PicPay/picpay-desafio-backend?tab=readme-ov-file) para uma vaga backend com perfil sênior. A solução desenvolvida é basicamente uma versão simplificada do PicPay.
+Projeto elaborado para solucionar [esse desafio](https://github.com/PicPay/picpay-desafio-backend?tab=readme-ov-file) para uma vaga backend com perfil sênior. A solução desenvolvida é basicamente uma versão simplificada do PicPay.
 
 ## Tecnologias
  
@@ -67,3 +67,4 @@ Transfer-Encoding: chunked
     }
 ]
 ```
+ -> Aula apresentada pela Giuliana Bezerra canal do youtube.

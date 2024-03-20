@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.picpaydesafiobackend;
+package br.com.challenge.picpay;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.boot.SpringApplication;

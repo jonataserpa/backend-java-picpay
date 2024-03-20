@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.picpaydesafiobackend.wallet;
+package br.com.challenge.picpay.wallet;
 
 import org.springframework.data.repository.CrudRepository;
 
